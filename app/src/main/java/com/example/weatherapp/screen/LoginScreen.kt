@@ -129,7 +129,7 @@ fun LoginScreen(navController: NavHostController) {
                 navController.navigate("forget_screen")
             })
             Spacer(modifier = Modifier.height(16.dp))
-
+//Buttons
             Button(
                 onClick = {
                     if (email.isNotEmpty() && password.isNotEmpty()) {
